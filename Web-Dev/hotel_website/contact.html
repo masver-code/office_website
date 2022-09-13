@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name= "description" content="Welcome to the most extraordiary hotel in Quebec Canada">
+  <meta name="keywords" content="hotel,Quebec,Canada,Quebec hotel">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:769px)" href="css/moblie.css">
+  <title>Hotel BT - Welcome</title>
+</head>
+<body>
+  <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">HBT</a></h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a class= "current" href="contact.html">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+  </header>
+
+
+  
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> us</h1>
+        <p>Plese fill out the from below to contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="form-group">
+            <label for="Message">Message</label>
+            <textarea type="text" name="message" id="message">
+            </textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+
+
+
+     <section id="contact-info" class="bg-dark">
+        <div class="container">
+          <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Location</h3>
+            <p>357, 24em Deux-Montagnes</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h3>Phone number</h3>
+            <p>(514) 662-4828</p>
+          </div>
+          <div class="box"> 
+            <i class="fas fa-envelope fa-3x"></i>
+            <h3>Email address <address></address></h3>
+            <p>Tv-24@hotmail.com</p>
+          </div>
+        </div>
+
+      </section>
+
+
+<footer id="main-footer">
+<p>Hotel BT &copy; 2020, All Rights Reserved </p>
+
+</footer>
+</body>
+</html>
